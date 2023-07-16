@@ -70,7 +70,7 @@ function App() {
           />
         ))}
       </div>
-      <div className={`play ${play === "x" ? "left" : "right"}`}>
+      <div className={`play ${play === "x" ? "left" : "right"}`} style={{ display: "flex", justifyContent: "space-around", margin: 10 }}>
         <FirstComponent clsName="x" />
         <FirstComponent clsName="o" />
       </div>
